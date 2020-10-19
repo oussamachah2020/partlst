@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+body {
+    background-image: url('image/ball.jpg');
+    background-size: 1350px;
+}
+a {
+  display: block;
+  height: 30px;
+  padding: 10px 0 0 10px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.39);
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover {
+    color: lightgrey;
+}
+nav {
+    background-color: black;
+    margin-right: 1090px;
+    position: relative;
+    left: -10px;
+    height: 870px;
+    transform: translateY(-1200px);
+}
+ol {
+    transform: translateY(300px);
+}
+p {
+    color: white;
+    padding-top: 160px;
+    padding-left: 310px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 18px;
+}
+h1 {
+    padding-left: 300px;
+    font-family: 'Lemonada', cursive;
+    font-size: 80px;
+    transform: translateY(-70px);
+}
+.h1 {
+    transform: translateY(-130px);
+}
+.h2 {
+    transform: translateY(-260px);
+}
+h2 {
+    padding-left: 300px;
+    transform: translateY(-420px);
+    color: white;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 38px;
+}
+button[type=submit]  {
+    padding: 34px 20px 34px 20px;
+    border-radius: 100%;
+    border: none;
+    background-color: rgb(30, 155, 30);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 16px;
+    background-image: url('image/pencil.png');
+    background-repeat: no-repeat;
+    background-position: center;
+     background-position-y: 7px;
+    margin-left: 300px;
+    transform: translateY(-440px);
+}
+button[type=menu] {
+    padding: 35px 25px 35px 25px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    font-family: 'Noto Sans HK', sans-serif;
+    background-color: rgb(255, 145, 0);
+    font-size: 16px;
+    background-image: url('image/gear.png');
+    background-repeat: no-repeat;
+    background-position: center;
+     background-position-y: 7px;
+    color: white;
+    transform: translateY(-442px);
+}
+button[type='reset'] {
+    transform: translateY(-442px);
+    padding: 39px 25px 39px 25px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background-image: url('image/market.png');
+    background-repeat: no-repeat;
+    background-position: center;
+     background-position-y: 7px;
+    background-color: rgb(231, 63, 128);
+    font-family: 'Noto Sans HK', sans-serif;
+}
+button[type='button'] {
+    transform: translateY(-445px);
+    padding: 40px 20px 40px 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 10px;
+    border: none;
+    background-image: url('image/sc.png');
+    background-repeat: no-repeat;
+    background-position: center;
+     background-position-y: 7px;
+    background-color: purple;
+    outline: none;
+    color: white;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+.SM a {
+    display: inline;
+    border: none;
+}
+.SM {
+    transform: translateY(380px);
+    margin-left: 30px;
+}
+h3 {
+    transform: translateY(-1950px);
+    color: white;
+    margin-left: 20px;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 42px;
+}
+h5 {
+    transform: translateY(-1980px);
+    color: white;
+    margin-left: 40px;
+    font-family: 'Rajdhani', sans-serif;
+}
